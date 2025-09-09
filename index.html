@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Meal Generator</title>
+
+    <!-- Css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="meal-container">
+            <h1 class="suggestion-title">What Should I Eat?</h1>
+    
+            <h2>Select Your Mood:</h2>
+            <div class="mood-options">
+                <label><input type="radio" name="mood" value="Happy"> Happy <img src="image/smiley.png"></label>
+                <label><input type="radio" name="mood" value="Sad"> Sad <img src="image/sad-face.png"></label>
+                <label><input type="radio" name="mood" value="Tired"> Tired <img src="image/tired.png"></label>
+                <label><input type="radio" name="mood" value="Exhausted"> Exhausted <img src="image/exhausted.png"></label>
+            </div>
+    
+            <h3 id="result" class="spin-title">Choose a mood and click "Spin for a Meal!" to get a suggestion.</h3>
+    
+            <img id="meal-image" alt="Meal Image" style="display: none;">
+            <div id="ingredients" class="ingredients"></div>
+    
+            <button id="spinButton" class="spinButton">Spin Now!</button>
+    
+    
+        </div>
+
+    </div>
+   
+
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>

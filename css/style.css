@@ -1,0 +1,95 @@
+ /* Font Link */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'Poppins', sans-serif;
+     text-align: center;
+     background-color: #f8f8f8;
+ }
+
+ .container {
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .meal-container {
+     background: #ffffff;
+     padding: 30px;
+     border-radius: 20px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     max-width: 550px;
+     margin: auto;
+ }
+
+ .suggestion-title {
+     color: #FF9000;
+     font-weight: 900;
+ }
+
+ .mood-options {
+     margin: 10px 0;
+ }
+ .mood-options label {
+     display: flex;
+     justify-content: center;
+     margin: 5px;
+     cursor: pointer;
+ }
+ .mood-options input{
+    margin-right: 5px;
+ }
+ .mood-options img{
+    width: 24px;
+    margin-left: 5px;
+ }
+
+ .mood-options i {
+     color: #FF9000;
+ }
+.spin-title{
+    font-size: 15px;
+}
+
+ #meal-image {
+     width: 100%;
+     max-width: 350px;
+     margin-top: 10px;
+     border-radius: 5px;
+     display: block;
+     margin: 10px auto;
+
+ }
+
+    .spinButton {
+        background: #FF9000;
+        color: #ffffff;
+        border: 2px solid #FF9000;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-top: 10px;
+        transition: all 0.5s ease-in-out;
+        font-size: 15px;
+    }
+
+    .spinButton:hover {
+        background: #ffffff;
+        border: 2px solid #FF9000;
+        color: #FF9000;
+    }
+
+       
+ .ingredients {
+     font-style: italic;
+     color: #555;
+     margin-top: 10px;
+ }
